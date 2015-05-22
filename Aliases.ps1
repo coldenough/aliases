@@ -1,4 +1,8 @@
 ﻿## Aliases.ps1 -- to be dot-sourced from your profile
+<#
+https://web.archive.org/web/20120213013609/http:
+//huddledmasses.org/powershell-power-user-tips-bash-style-alias-command
+#>
 if($Host.Version.Major -ge 2) {
    function script:Resolve-Aliases
    {
